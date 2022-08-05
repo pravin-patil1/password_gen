@@ -6,7 +6,7 @@
 """
 import random,string
 
-sp_l = ['@' '~' '_']
+sp_l = ['@', '~', '_']
 print('====================================')
 print('   Welcome to password generator')
 print('====================================\n\n')
@@ -18,15 +18,13 @@ spl = int (input('Enter No of special characters required in password : '))
 l_pwd = []
 pwd = ''
 sm = alpha+no+spl
-ver = string.ascii_letters
-nos = string.digits
 if lengh == sm:
     for i in range(alpha):
-        l_pwd.append(random.choice(ver))
+        l_pwd.append(random.choice(string.ascii_letters))
     for y in range(no):
-        l_pwd.append(random.choice(nos))
+        l_pwd.append(random.choice(string.digits))
     for z in range(spl):
-        l_pwd.append(random.choice(sp_l))
+        l_pwd.append(str(random.choice(sp_l)))
     random.shuffle(l_pwd)
     for num in l_pwd:
         pwd=pwd+num
