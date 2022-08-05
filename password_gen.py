@@ -9,7 +9,7 @@ import random,string
 sp_l = ['@', '~', '_']
 print('====================================')
 print('   Welcome to password generator')
-print('====================================\n\n')
+print('====================================\n')
 
 lengh = int(input('Enter Password Lenght : '))
 alpha =int(input('Enter No of Characters needs to be included : '))
