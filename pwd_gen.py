@@ -23,8 +23,8 @@ def pwd_gen(l,c,d,s,rn):
         else:
             print('\U0001F61E Please enter correct password lenght \U0001F61E\nPassword Lenght and no of characters, digits and special chaacters not matching!!')
         rn -= 1
-    print('Random Passwords as below (multiple passwords seperated by / ): ')
+    print('=============================\nRandom Passwords as below : \n')
     for i in rn_pwd:
-        print(i, end = ' / ')
-
+        print(i)
+    print('\n____________________________\nThank you !!\n=============================')
     

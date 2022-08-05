@@ -7,14 +7,12 @@
 from pwd_gen import pwd_gen
 
 
-print('====================================')
-print('   Welcome to password generator')
-print('====================================\n')
-
+print('=======================================')
+print('+ !!Welcome to Password Generator!!  +')
+print('=======================================\n')
 lengh = int(input('Enter Password Lenght : '))
 alpha =int(input('Enter No of Characters needs to be included : '))
 no =int(input('Enter No of Digits needs to be included : '))
 spl = int (input('Enter No of special characters required in password : '))
-n_r = int (input('Enter Number of random passwods requireds : '))
+n_r = int (input('Enter Number of random passwods requireds :'))
 pwd_gen(lengh,alpha,no,spl,n_r)
-
